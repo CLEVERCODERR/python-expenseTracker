@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>1a34dad1-87c6-43b4-8c6c-3f61fcc895c5</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>expense_tracker.py</StartupFile>
+    <StartupFile>expenses.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -21,7 +21,10 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="expense_tracker.py" />
+    <Compile Include="expenses.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="sampleData.json" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in

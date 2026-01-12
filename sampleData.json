@@ -1,0 +1,22 @@
+{
+  "expenses": [
+    {
+      "date": "2025-01-05",
+      "category": "Food",
+      "description": "Lunch",
+      "amount": 12.50
+    },
+    {
+      "date": "2025-01-06",
+      "category": "Transport",
+      "description": "Bus pass",
+      "amount": 45.00
+    },
+    {
+      "date": "2025-01-07",
+      "category": "Entertainment",
+      "description": "Movie ticket",
+      "amount": 15.00
+    }
+  ]
+}
